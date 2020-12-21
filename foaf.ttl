@@ -1,1 +1,15 @@
-a
+@prefix admin: <http://webns.net/mvcb/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<https://github.com/bjanevski/FOAF-Profile/blob/main/foaf.ttl> a foaf:PersonalProfileDocument ;
+    admin:errorReportsTo <mailto:leigh@ldodds.com> ;
+    admin:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+    foaf:maker <https://github.com/bjanevski/FOAF-Profile/blob/main/foaf.ttl#me> ;
+    foaf:primaryTopic <https://github.com/bjanevski/FOAF-Profile/blob/main/foaf.ttl#me> .
+
+<https://github.com/bjanevski/FOAF-Profile/blob/main/foaf.ttl#me> a foaf:Person ;
+    foaf:family_name "Janevski" ;
+    foaf:givenname "Bojan " ;
+    foaf:mbox_sha1sum "ab92e6942661ca9ff500bd7b21ed79750f050be8" ;
+    foaf:name "Bojan  Janevski" ;
+    foaf:schoolHomepage <https://finki.ukim.mk/> 
