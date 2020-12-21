@@ -11,12 +11,13 @@
 <https://raw.githubusercontent.com/bjanevski/FOAF-Profile/main/foaf.ttl#me> a foaf:Person ;
     foaf:family_name "Janevski" ;
     foaf:givenname "Bojan" ;
+    foaf:homepage <https://twitter.com/bjanevski26> ;
     foaf:knows [ a foaf:Person ;
             rdfs:seeAlso <https://raw.githubusercontent.com/Kamishev/foaf.ttl/main/foaf.ttl> ;
             foaf:mbox_sha1sum "3fad2178ba77f01b5ac74990afc79d130535d33b" ;
             foaf:name "Jordan Kamishev" ] ;
     foaf:mbox_sha1sum "ab92e6942661ca9ff500bd7b21ed79750f050be8" ;
     foaf:name "Bojan Janevski" ;
-    foaf:nick "bj" ;
+    foaf:nick "chesssist" ;
     foaf:phone <https://raw.githubusercontent.com/bjanevski/FOAF-Profile/main/tel:078723701> ;
     foaf:schoolHomepage <https://finki.ukim.mk/> .
